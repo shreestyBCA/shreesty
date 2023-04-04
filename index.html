@@ -1,32 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <style>
-        .welcome{
-            Height:50px;
-            width:200px auto;
-            max-width: 400px;
-            /*background-color:lightpurple ; */
-            text-align: center;
-            /*border: 2px solid black; */
-            border-top: 5px rgb(114, 250, 239);
-            border-bottom: 10px rgb(236, 77, 15);
-            border-left: 10px rgba(240, 158, 128, 0.607);
-            border-right: 10px lightcoral;
-            border-radius: 20px;
+<html>
+    <head>
+     <title> Registration page</title>  
 
-        }
-    </style>
-</head>
-<body>
-    <H1 class="welcome">Welcome to BCA</H1>
-    <h2 class="welcome">Whitefield Int'l College</h2>
-    <h3 class="welcome">Kushibu,Newroad</h3>
-    <h4 class="welcome"> Contact 01-4356735</h4>
+    </head>
+    <body bg color="Light skyblue"> 
+    <h1> Registration form </h1>
+    <br>
+    <form>
+        <label>Firstname</label>
+        <input type="text" name="first name" size="15"/> <br><br>
+        <label> Middle name:</label>
+        <input type="text" name="Middle name" size="15"/> <br><br>
+        <label>Last name: </label>
+        <input type="text" name="Last name" size="15"/> <br><br>
+        <label>
+             Course:
+        </label>
+        <select>
+    <option value="Course"> Course</option>
+    <option value="BCA"> BCA</option> 
+    <option value="BBA"> BBA</option> 
+    <option value="B.tech"> B.tech</option> 
+    <option value="MBA"> MBA</option>
+     <option value="MCA"> MCA</option> 
+     <option value="M.tech"> M.tech</option>
+     </select>
+    </form>
+    <br>
+    <br>
+    <label>
+        Gender:
+    </label><br>
+    <input type="radio" name="male"/>male<br>
+    <input type="radio" name="female"/> female<br>
+    <input type="radio" name="other"/> other<br>
+<br>
+    <label>
+        Phone:
+    </label>
+<input type="text" name="country code" value="+91" size="10"/> <br>
+<input type="text" name="Phone"  size="10"/> <br>
+address
+<br>
+<textarea cols="80" rows="5" value="address">
+</textarea>
+<br>
+<br>
+Email:
+<input type="email"  td="email" name="email"  size="10"/> <br>
+<br>
+<br>
+Password:
+<input type="password" td="password" name="password"/> <br>
+<br>
+<br>
+Re.Password:
+<input type="password" td="password" name="password"/> <br>
+<input type="button" value="submit"/>
 
-</body>
+
+
+
+    </body>
+    
 </html>
